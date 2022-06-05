@@ -285,16 +285,16 @@ while run:
                 if event.key == pygame.K_d:
                     xSpeed += 2
                 if event.key == pygame.K_r:
-                    print("1 = wooden sword (15 damage)")
-                    print("2 = wooden pickaxe (mines stone)")
-                    print("3 = stone sword (20 damage)")
-                    print("4 = stone pickaxe (chance of mining iron)")
-                    print("5 = iron sword (25 damage)")
-                    print("6 = iron pickaxe (chance of mining diamonds)")
-                    print("7 = diamond sword (30 damage)")
-                    print("8 = diamond pickaxe (higher chance of finding ores)")
-                    print("9 = iron armour (blocks 50% of damage)
-                    print("0 = diamond armour (blocks 75% of damage)
+                    print("1 = wooden sword (15 damage), 2 wood, 1 stick needed")
+                    print("2 = wooden pickaxe (mines stone), 3 wood, 2 sticks needed")
+                    print("3 = stone sword (20 damage), 2 stone, 1 stick needed")
+                    print("4 = stone pickaxe (chance of mining iron), 3 stone, 2 sticks needed")
+                    print("5 = iron sword (25 damage), 2 iron, 1 stick needed")
+                    print("6 = iron pickaxe (chance of mining diamonds), 3 iron, 2 sticks needed")
+                    print("7 = diamond sword (30 damage), 2 diamonds, 1 stick needed")
+                    print("8 = diamond pickaxe (higher chance of finding ores), 3 diamonds, 2 sticks needed")
+                    print("9 = iron armour (blocks 50% of damage), 15 iron needed")
+                    print("0 = diamond armour (blocks 75% of damage), 15 diamonds needed")
                 if event.key == pygame.K_SPACE:
                     for obj in squareList:
                         block = pygame.draw.rect(screen, obj.colour,
